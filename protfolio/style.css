@@ -1,0 +1,85 @@
+#header
+{
+    color: #0b2b1e;
+    background-color:#845EC2;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#abt
+{
+   text-decoration: none;
+    text-underline: none;
+    color: black;
+    background:#28839F;
+    font-family:"ui-sans-serif";
+    padding: 9px;
+    text-align: center;
+    font-size: larger;
+
+}
+#page
+{
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+#des
+{
+    font-family: "Bell MT";
+    background: #D5E9F1;
+    padding: 10px;
+}
+#pic
+{
+    width:320px;
+border: wheat 5px;
+
+
+
+}
+#mypic
+{
+
+    font-family: cursive;
+    align-items: center;
+}
+#logo{
+    width: 30px;
+    height: 30px;
+}
+#line{
+    background-color: #20332b;
+    border: none;
+    height: 4px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#hb
+{
+    color: black;
+    font-family: "Arial Rounded MT Bold";
+    font-size: large;
+    font: bold;
+
+}
+#sch
+{
+    font-size: large;
+    font-family: Bahnschrift;
+    background-clip: text;
+    background-image: radial-gradient(circle, #961235, #862b17, #6f3c00, #564500, #3e4a0e, #3c4a12, #394916, #374919, #46450f, #53400b, #603a0f, #6b3219);
+color: transparent;
+
+}
+#goal
+{
+    font-size: large;
+    font-family: cursive;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #851856, #7c1f63, #6f2870, #5e307a, #483782, #38438b, #244d92, #005797, #00689c, #007699, #008391, #1e8e87);
+}
