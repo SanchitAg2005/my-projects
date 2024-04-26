@@ -1,0 +1,56 @@
+#hh
+{
+    border: none;
+    border-top: 2px solid black; /* You can adjust the width, color, and style as needed */
+    margin: 0px 0px; /* Adjust margin as needed */
+    width: 100%; /* Ensures the line spans the entire width of its container */
+
+}
+#lay
+{
+    background-color: #d1e9cd;
+}
+#fr
+{
+    background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    text-align: center;
+    color: #5ffbf1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+
+
+}
+
+#logo
+{
+  width: 300px;
+    height: 300px;
+}
+#em
+{
+    font-size:larger;
+    color: #3e4a0e;
+    font-family: bold;
+    text-align: center;
+
+}
+
+#hr
+{
+    background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    text-align: center;
+    color: #5ffbf1;
+}
+
+img:hover
+{
+    width: 220px;
+    height: 220px;
+    background-attachment: fixed;
+
+}
+#sec{
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+Certainly! Here's the modified HTML code with `<br>` tags between each option:
+
+```html
+<select id="regionSelector">
+    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option><br>
+    <option value="Andhra Pradesh">Andhra Pradesh</option><br>
+    <option value="Arunachal Pradesh">Arunachal Pradesh</option><br>
+    <option value="Assam">Assam</option><br>
+    <option value="Bihar">Bihar</option><br>
+    <option value="Chandigarh">Chandigarh</option><br>
+    <option value="Chhattisgarh">Chhattisgarh</option><br>
+    <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option><br>
+    <option value="Daman and Diu">Daman and Diu</option><br>
+    <option value="Delhi">Delhi</option><br>
+    <option value="Goa">Goa</option><br>
+    <option value="Gujarat">Gujarat</option><br>
+    <option value="Haryana">Haryana</option><br>
+    <option value="Himachal Pradesh">Himachal Pradesh</option><br>
+    <option value="Jammu and Kashmir">Jammu and Kashmir</option><br>
+    <option value="Jharkhand">Jharkhand</option><br>
+    <option value="Karnataka">Karnataka</option><br>
+    <option value="Kerala">Kerala</option><br>
+    <option value="Ladakh">Ladakh</option><br>
+    <option value="Lakshadweep">Lakshadweep</option><br>
+    <option value="Madhya Pradesh">Madhya Pradesh</option><br>
+    <option value="Maharashtra">Maharashtra</option><br>
+    <option value="Manipur">Manipur</option><br>
+    <option value="Meghalaya">Meghalaya</option><br>
+    <option value="Mizoram">Mizoram</option><br>
+    <option value="Nagaland">Nagaland</option><br>
+    <option value="Odisha">Odisha</option><br>
+    <option value="Puducherry">Puducherry</option><br>
+    <option value="Punjab">Punjab</option><br>
+    <option value="Rajasthan">Rajasthan</option><br>
+    <option value="Sikkim">Sikkim</option><br>
+    <option value="Tamil Nadu">Tamil Nadu</option><br>
+    <option value="Telangana">Telangana</option><br>
+    <option value="Tripura">Tripura</option><br>
+    <option value="Uttar Pradesh">Uttar Pradesh</option><br>
+    <option value="Uttarakhand">Uttarakhand</option><br>
+    <option value="West Bengal">West Bengal</option><br>
+</select>
+```
+
+Now, each option is followed by a line break `<br>` tag for better readability.

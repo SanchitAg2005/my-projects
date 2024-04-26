@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head xmlns="http://www.w3.org/1999/html">
+
+    <title>FORMS</title>
+</head>
+<body>
+<fieldset ><h1 id="open"><i><b><sup>PAYMENT</sup><sub> GATEWAY</sub></b></i></h1></fieldset>
+<style>
+#open{
+color: darkcyan;
+background-color: azure;
+padding: 20px;
+}</style>
+
+
+<style>
+    #form{
+        color: black;
+        background-color: #f4f0fa;
+        padding: 10px;
+    }
+</style>
+<form id="form" method="get" action="">
+
+    <h2><i>User Details</i></h2><hr>
+    <fieldset>
+ <p><b>First name:</b><input type="text"  name="fname" required></p>
+
+    <p><b>Second name:</b><input type="text"  name="lname"></p>
+   <legend><h3>Name</h3></legend> </fieldset>
+
+    <fieldset>
+    <b>Male</b><input type="radio" name="gender" value="male" required>
+    <b>Female</b> <input type="radio" name="gender" value="female" required >
+    <b>Others</b> <input type="radio" name="gender" value="Others" requirede>
+    <legend><h3>Gender</h3></legend></fieldset>
+    <fieldset>
+    <textarea cols="170" rows="7" name="address " required></textarea>
+       <h3>pincode</h3> <input type="number"  name="pincode" required>
+    <legend> <h3>Adress :</h3></legend></fieldset>
+    <fieldset>
+   <input type="email" name="mail" required>
+    <legend><h3> Email</h3></legend></fieldset>
+    <fieldset>
+        <legend>
+    <h3>REGION</h3></legend>
+        <select id="regionSelector">
+            <option value="#">----Select Your Region----</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option><br>
+            <option value="Andhra Pradesh">Andhra Pradesh</option><br>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option><br>
+            <option value="Assam">Assam</option><br>
+            <option value="Bihar">Bihar</option><br>
+            <option value="Chandigarh">Chandigarh</option><br>
+            <option value="Chhattisgarh">Chhattisgarh</option><br>
+            <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option><br>
+            <option value="Daman and Diu">Daman and Diu</option><br>
+            <option value="Delhi">Delhi</option><br>
+            <option value="Goa">Goa</option><br>
+            <option value="Gujarat">Gujarat</option><br>
+            <option value="Haryana">Haryana</option><br>
+            <option value="Himachal Pradesh">Himachal Pradesh</option><br>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option><br>
+            <option value="Jharkhand">Jharkhand</option><br>
+            <option value="Karnataka">Karnataka</option><br>
+            <option value="Kerala">Kerala</option><br>
+            <option value="Ladakh">Ladakh</option><br>
+            <option value="Lakshadweep">Lakshadweep</option><br>
+            <option value="Madhya Pradesh">Madhya Pradesh</option><br>
+            <option value="Maharashtra">Maharashtra</option><br>
+            <option value="Manipur">Manipur</option><br>
+            <option value="Meghalaya">Meghalaya</option><br>
+            <option value="Mizoram">Mizoram</option><br>
+            <option value="Nagaland">Nagaland</option><br>
+            <option value="Odisha">Odisha</option><br>
+            <option value="Puducherry">Puducherry</option><br>
+            <option value="Punjab">Punjab</option><br>
+            <option value="Rajasthan">Rajasthan</option><br>
+            <option value="Sikkim">Sikkim</option><br>
+            <option value="Tamil Nadu">Tamil Nadu</option><br>
+            <option value="Telangana">Telangana</option><br>
+            <option value="Tripura">Tripura</option><br>
+            <option value="Uttar Pradesh">Uttar Pradesh</option><br>
+            <option value="Uttarakhand">Uttarakhand</option><br>
+            <option value="West Bengal">West Bengal</option><br>
+        </select>
+    <h1 id="pay">Payment</h1>
+    <style>
+        #pay{
+            color: greenyellow;
+            background-color: cornflowerblue;
+            padding: 10px;
+
+        }
+
+    </style>
+    <hr>
+    <fieldset>
+    <legend><h3>Card Type</h3></legend>
+        <select name="card" required>
+        <option value="">--Select A Card Type--</option>
+        <br>
+        <option value="visa">VISA</option>
+        <br>
+        <option value="master card">MASTER CARD</option>
+        <br>
+        <option value="rupay">RUPAY</option>
+        <br>
+        <option value="Upi">Upi</option>
+    </select></fieldset>
+    <fieldset><legend><h3>Card Info</h3></legend>
+    <h4>Card Number:<input type="number" name="card number" required></h4>
+        <br>
+        <h4>Expiry Date:<input type="date" name="expdate" required></h4>
+        <br><h4>CVV<input type="password" name="cvv" required></h4>
+        <br>
+    </fieldset>
+
+<input type="submit" value="Pay Now">
+    <input type="reset">
+</form>
+</body>
+</html>
